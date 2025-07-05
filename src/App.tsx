@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, } from 'react';
 
 // --- PLACEHOLDERS & CONFIG (Where you'd put real stuff later) ---
 
 // TODO: Put your actual Gemini API Key here when you build the backend
-const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_GOES_HERE";
+// const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_GOES_HERE";
 
 // TODO: This is the prompt you'd send to the Gemini API
-const GEMINI_ROAST_PROMPT = `
-You are Floof, a cute but sassy and judgmental cloud friend. Your goal is to help your friend stick to her diet. She has just uploaded a photo of junk food she ate. Your response must be a short, hilarious, savage, and funny roast or intervention about the food in the image. Speak in a cheeky, meme-worthy tone. Keep it under 250 characters. Start the roast by identifying the food if you can. Now, generate a roast for the attached image.
-`;
+// const GEMINI_ROAST_PROMPT = `
+// You are Floof, a cute but sassy and judgmental cloud friend. Your goal is to help your friend stick to her diet. She has just uploaded a photo of junk food she ate. Your response must be a short, hilarious, savage, and funny roast or intervention about the food in the image. Speak in a cheeky, meme-worthy tone. Keep it under 250 characters. Start the roast by identifying the food if you can. Now, generate a roast for the attached image.
+// `;
 
 // Mock data - in a real app, this would come from a database
 const initialWeeklyLog = [
