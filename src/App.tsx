@@ -83,7 +83,7 @@ export default function App() {
     <div className="p-6 space-y-8">
       {/* Header */}
       <header className="flex justify-between items-center">
-        <h1 className="text-2xl font-bubbly font-bold text-text-dark">Pineapple Cravings Crusher</h1>
+        <h1 className="text-2xl font-bubbly font-bold text-text-dark">Chotu Pineapple Cravings Crusher</h1>
         <img src="/images/floof.png" alt="Floof the Cloud" className="w-16 h-16 animate-float" />
       </header>
 
