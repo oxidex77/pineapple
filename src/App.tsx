@@ -1,4 +1,4 @@
-import React, { useState, } from 'react';
+import { useState } from 'react';
 
 // --- PLACEHOLDERS & CONFIG (Where you'd put real stuff later) ---
 
